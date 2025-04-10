@@ -1,7 +1,12 @@
-# Desafio: Nota Fiscal com Enum em Java
+# 💡 Aprendendo Enum em Java
 
-Este projeto demonstra o uso de `enum` com comportamento em Java para controlar o ciclo de vida de uma nota fiscal, incluindo os estados: `NAO_EMITIDA`, `EMITIDA` e `CANCELADA`.
+Este repositório contém uma implementação prática de enumerações (`enum`) em Java, com foco em boas práticas, encapsulamento de regras de negócio e legibilidade.
 
-## Objetivo
+## 📌 Descrição
 
-Refatorar a lógica de status da nota fiscal, centralizando as regras no próprio `enum`, para melhorar legibilidade e manutenibilidade.
+O desafio consiste em modelar o comportamento de uma **Nota Fiscal** com estados distintos (`NAO_EMITIDA`, `EMITIDA`, `CANCELADA`) usando `enum`, substituindo parâmetros booleanos e centralizando regras dentro do próprio `enum`.
+
+## 📁 Estrutura
+
+- `StatusNotaFiscal.java`: enum que define os estados da nota fiscal e suas regras de transição.
+- `NotaFiscal.java`: classe que representa a nota fiscal, interagindo com o `enum`.
